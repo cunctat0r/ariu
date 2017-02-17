@@ -17,6 +17,9 @@
         append: yes 
         state: present 
         createhome: yes
+        shell: /bin/bash
+        password: $6$a3TOID9LTTvg$ZKUd/qGymsYL1Eza7nZQrwljtHaYUfFYt0oCBZ6B8xfM0bK085WUv8oJEmhbQgMg3.JiQdP6s/okpZx0EXkCQ/
+
   
     - name: Allow frost user to have passwordless sudo
       lineinfile:
